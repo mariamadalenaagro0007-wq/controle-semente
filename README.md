@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -6,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Controle de Sementes Comigo</title>
 <style>
-:root{--verde:#1f6b3a;--verde2:#e8f3ec;--txt:#1d2b22;--borda:#cfdcd3}
+:root{--verde:#0e5a2d;--verde2:#e8f3ec;--txt:#1d2b22;--borda:#cfdcd3}
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,Arial,sans-serif;background:#f4f7f5;color:var(--txt)}
 header{background:var(--verde);color:#fff;padding:16px;display:flex;justify-content:space-between;align-items:center}
@@ -43,14 +42,14 @@ th,td{text-align:left;padding:8px 4px;border-bottom:1px solid var(--borda)}
   <div class="hide" id="telaLanc">
     <section class="card">
       <div style="font-size:14px">Olá, <b id="nomeUser"></b></div>
-      <label>Número do tíquete</label><input id="ticket" inputmode="numeric">
+      <label>Nº Ticket</label><input id="ticket" inputmode="numeric">
       <label>QTD (unidades)</label><input id="qtd" type="number" inputmode="numeric" step="1" min="1">
       <button id="btnLancar">Lançar na planilha</button>
       <div class="msg" id="msgLanc"></div>
     </section>
     <section class="card">
       <b style="font-size:14px">Meus últimos lançamentos</b>
-      <table><thead><tr><th>Data</th><th>Tíquete</th><th>QTD</th></tr></thead><tbody id="lista"></tbody></table>
+      <table><thead><tr><th>Data</th><th>Nº Ticket</th><th>QTD</th></tr></thead><tbody id="lista"></tbody></table>
     </section>
   </div>
 </main>
