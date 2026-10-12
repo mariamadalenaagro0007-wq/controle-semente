@@ -77,7 +77,7 @@ td.pend{color:var(--aviso);font-weight:600}
 
 <script>
 // ===== CONFIGURAÇÃO =====
-const URL_SCRIPT = "";  // cole aqui a URL do Apps Script (termina em /exec)
+const URL_SCRIPT = "";   (https://script.google.com/macros/s/AKfycbzxtu2tBxsPVRkW2RlhVAiZ45s2T7eDD6JXc6M9hPmAgbxRloetYucyP95BYLp8bRiE/exec)
 const TIMEOUT_MS = 15000;
 // ========================
 
